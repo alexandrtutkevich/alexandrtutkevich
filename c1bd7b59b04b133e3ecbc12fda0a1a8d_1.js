@@ -944,7 +944,7 @@ function oSendpulsePush(){
             document.body.removeChild(document.querySelector('.sendpulse-backdrop-info'));
         }
         var n = new Notification("123");
-        n.cancel();
+        n.close.bind(n);
         if (saveclosed) {
             oSpP.sendPromptStat('prompt_closed');
             oSpP.putValueToDb("SPIDs", {
