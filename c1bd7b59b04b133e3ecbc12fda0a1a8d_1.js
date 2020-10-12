@@ -280,6 +280,9 @@ function oPromptPush(){
 
     //******************************************************************************************************************
     this.startSubscription = function(){
+        if(!oSpP.checkIsServiceWorkerExits()){
+            oSpP.showPopUp();
+        }
         switch (sBrowser) {
             /*case 'safari':
                 if (oSpP.isSafariNotificationSupported()) {
@@ -1549,9 +1552,9 @@ function oPromptPush(){
     //******************************************************************************************************************
     this.closeCustomPrompt = function(saveclosed){
         oSpP.sendPromptStat('prompt_closed');
-        if(document.querySelector('.'+styles_prefix+'-prompt') !== null) {
-            document.removeChild(document.querySelector('.'+styles_prefix+'-prompt'));
-            console.log('.'+styles_prefix+'-prompt');
+        console.log('.'+styles_prefix+'-prompt');
+        if(document.body.querySelector('.'+styles_prefix+'-prompt') !== null) {
+            document.body.removeChild(document.querySelector('.'+styles_prefix+'-prompt'));
         }
         if (saveclosed) {
             oSpP.putValueToDb("SPIDs", {
