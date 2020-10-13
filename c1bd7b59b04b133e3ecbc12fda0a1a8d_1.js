@@ -543,7 +543,6 @@ function oPromptPush(){
             xhr.open("GET", '/'+styles_prefix+'-push-worker-fb.js'); // async=true
             xhr.onload = function (e) {
                 if (xhr.readyState == 4 && xhr.status == 200) {
-                    return true;
                     serviceWorkerExists = true;
                 }else {
                     serviceWorkerExists = false;
