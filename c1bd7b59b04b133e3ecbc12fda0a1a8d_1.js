@@ -1551,7 +1551,7 @@ function oPromptPush(){
     this.closeCustomPrompt = function(saveclosed){
         oSpP.sendPromptStat('prompt_closed');
         if(document.body.querySelector('.'+styles_prefix+'-prompt') !== null) {
-            document.body.removeChild(document.querySelector('.'+styles_prefix+'-prompt'));
+            document.body.removeChild(document.body.querySelector('.'+styles_prefix+'-prompt'));
         }
         if (saveclosed) {
             oSpP.putValueToDb("SPIDs", {
