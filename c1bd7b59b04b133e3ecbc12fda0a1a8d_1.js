@@ -21,8 +21,8 @@ var oSpPOptions = {
     jsIncludeDomain: "cdn.sendpulse.com",
     bAutoSubscribe:false,             // автоподписка при разрешении
     sAppKey:'c1bd7b59b04b133e3ecbc12fda0a1a8d',
-    prompt_settings:"{\"style\":\"sp-popover\",\"textcolor\":\"#03658c\",\"backgroundcolor\":\"#ffffff\",\"buttoncolor\":\"#f2594b\",\"iconcolor\":\"\",\"btncolor\":\"\",\"allowbtntext\":\"\u0420\u0430\u0437\u0440\u0435\u0448\u0438\u0442\u044c\",\"disallowbtntext\":\"\u0417\u0430\u043f\u0440\u0435\u0442\u0438\u0442\u044c\",\"btn_lang\":\"ru\",\"visit_number\":1,\"custom\":{\"prompt_position\":\"left\"},\"icon\":\"\/img\/my\/push\/push-default-icons\/icon.png\"}",
-    prompt_title:"",
+    prompt_settings:"{\"style\":\"sp-modal\",\"textcolor\":\"#03658c\",\"backgroundcolor\":\"#888888\",\"buttoncolor\":\"#f2594b\",\"iconcolor\":\"\",\"btncolor\":\"\",\"allowbtntext\":\"Allow\",\"disallowbtntext\":\"Don't allow\",\"btn_lang\":\"en\",\"visit_number\":1,\"icon\":\"\/img\/my\/push\/push-default-icons\/icon.png\"}",
+    prompt_title:"Подписка на уведомления",
     prompt_text:"Разрешите сайту alexandrtutkevich.github.io отправлять вам уведомления на рабочий стол",
     prompt_description:"-",
     prompt_settings_whithout_sw: "",
