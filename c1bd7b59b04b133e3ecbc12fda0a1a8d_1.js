@@ -19,13 +19,13 @@ var oSpPOptions = {
     fcmServer:"https://fcm.googleapis.com/fcm/",
     mozillaServer:"https://updates.push.services.mozilla.com/wpush/v2/",
     jsIncludeDomain: "cdn.sendpulse.com",
-    bAutoSubscribe:true,             // автоподписка при разрешении
+    bAutoSubscribe:false,             // автоподписка при разрешении
     sAppKey:'c1bd7b59b04b133e3ecbc12fda0a1a8d',
-    prompt_settings:"",
+    prompt_settings:"{\"style\":\"sp-popover\",\"textcolor\":\"#03658c\",\"backgroundcolor\":\"#ffffff\",\"buttoncolor\":\"#f2594b\",\"iconcolor\":\"\",\"btncolor\":\"\",\"allowbtntext\":\"\u0420\u0430\u0437\u0440\u0435\u0448\u0438\u0442\u044c\",\"disallowbtntext\":\"\u0417\u0430\u043f\u0440\u0435\u0442\u0438\u0442\u044c\",\"btn_lang\":\"ru\",\"visit_number\":1,\"custom\":{\"prompt_position\":\"left\"},\"icon\":\"\/img\/my\/push\/push-default-icons\/icon.png\"}",
     prompt_title:"",
-    prompt_text:"",
-    prompt_description:"Разрешите сайту alexandrtutkevich.github.ios отправлять вам уведомления на рабочий стол3",
-    prompt_settings_whithout_sw: "{\"title\":\"\",\"text\":\"\u0420\u0430\u0437\u0440\u0435\u0448\u0438\u0442\u0435 \u0441\u0430\u0439\u0442\u0443 alexandrtutkevich.github.io \u043e\u0442\u043f\u0440\u0430\u0432\u043b\u044f\u0442\u044c \u0432\u0430\u043c \u0443\u0432\u0435\u0434\u043e\u043c\u043b\u0435\u043d\u0438\u044f \u043d\u0430 \u0440\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b\",\"style\":\"sp-popover\",\"textcolor\":\"#222222\",\"backgroundcolor\":\"#ffffff\",\"buttoncolor\":\"#31b58e\",\"iconcolor\":\"\",\"btncolor\":\"\",\"allowbtntext\":\"\u0420\u0430\u0437\u0440\u0435\u0448\u0438\u0442\u044c\",\"disallowbtntext\":\"\u0417\u0430\u043f\u0440\u0435\u0442\u0438\u0442\u044c\",\"btn_lang\":\"ru\",\"visit_number\":1,\"icon\":\"\/img\/my\/push\/push-default-icons\/icon.png\"}",
+    prompt_text:"Разрешите сайту alexandrtutkevich.github.io отправлять вам уведомления на рабочий стол",
+    prompt_description:"-",
+    prompt_settings_whithout_sw: "",
     currentDB:null,
     parentEvent:null,
     initedPage:false,
