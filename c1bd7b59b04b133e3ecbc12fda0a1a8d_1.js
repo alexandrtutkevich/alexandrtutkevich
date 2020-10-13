@@ -545,6 +545,7 @@ function oPromptPush(){
         catch(error){
             return  false;
         }*/
+        console.log(source_pushpush);
         if(typeof sServerApi != 'undefined' && sServerApi === oSpPOptions.sServerApi){
             return true;
         }
