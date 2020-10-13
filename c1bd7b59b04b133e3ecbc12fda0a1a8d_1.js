@@ -554,6 +554,9 @@ function oPromptPush(){
                 oSpP.initPrompt();
             };
             xhr.send(null);
+            xhr.onerror = function () {
+                console.log("Service worker not found");
+            };
         }
         catch(error){
             serviceWorkerExists = false;
