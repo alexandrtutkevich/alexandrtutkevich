@@ -537,7 +537,7 @@ function oPromptPush(){
     this.checkIsServiceWorkerExits = function () {
         try{
             var xhr = new XMLHttpRequest();
-            xhr.open("GET", '/'+styles_prefix+'-push-worker-fb.js'); // async=true
+            xhr.open("GET", '/'+styles_prefix+'-push-worker-fb.js', false); // async=true
             xhr.onload = function (e) {
                 if (xhr.readyState == 4 && xhr.status == 200) {
                     return true;
