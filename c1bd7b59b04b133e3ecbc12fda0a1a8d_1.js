@@ -14,7 +14,7 @@ var oSpPOptions = {
     sBrowser:'',                      // название текущего браузера и версия
     sOs:'',                      // название текущей системы
     sSafariPushId:"web.com.sendpulse.push",   // ID from Apple push settings
-    sServerApi:"https://pushdata.sendpulse.com:4434",  // URL сервера по обработке запросов от клиентов
+    sServerApi:"https://pushdata.sendpulse.com:44341",  // URL сервера по обработке запросов от клиентов
     gcmServer:"https://android.googleapis.com/gcm/send/",
     fcmServer:"https://fcm.googleapis.com/fcm/",
     mozillaServer:"https://updates.push.services.mozilla.com/wpush/v2/",
